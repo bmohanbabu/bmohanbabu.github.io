@@ -119,7 +119,7 @@ portfolio/
 
 ### About
 
-(assets/images/screenshots/about.png)
+![About](assets/images/screenshots/about.png)
 
 ### Skills
 
