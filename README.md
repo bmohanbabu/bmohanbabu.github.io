@@ -121,7 +121,7 @@ portfolio/
 
 ![About](assets/images/screenshots/about.png)
 
-### Skills
+### Skill
 
 *(Add screenshot here)*
 
