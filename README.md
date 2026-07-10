@@ -115,19 +115,19 @@ portfolio/
 
 ### Home
 
-*(Add screenshot here)*
+![Home](assets/images/screenshots/home.png)
 
 ### About
 
 ![About](assets/images/screenshots/about.png)
 
-### Skill
+### Skills
 
-*(Add screenshot here)*
+![Skills](assets/images/screenshots/skills.png)
 
 ### Experience
 
-*(Add screenshot here)*
+![Experience](assets/images/screenshots/experience.png)
 
 ### Contact
 
