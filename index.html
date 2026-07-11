@@ -21,6 +21,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
 href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
     <link rel="stylesheet" href="assets/css/style.css">
+
+<a href="#home" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+</a>
 </head>
 
 <body>
@@ -39,6 +43,7 @@ href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#youtube">YouTube</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
 
@@ -758,43 +763,44 @@ Senior SRE/DevOps Engineer
 
     <div class="projects-container">
 
-        <div class="project-card">
+    <!-- Project 1 -->
+    <div class="project-card">
 
-            <img src="assets/images/projects/docker-guide.png"
-                 alt="Docker Beginners Guide">
+        <img src="assets/images/projects/docker-guide.png"
+             alt="Docker Beginners Guide">
 
-            <div class="project-content">
+        <div class="project-content">
 
-                <h3>Docker Beginners Guide</h3>
+            <h3>Docker Beginners Guide</h3>
 
-                <p>
-                    Complete Docker learning repository covering installation,
-                    images, containers, Dockerfile, volumes,
-                    networking, Docker Compose and real-world examples.
-                </p>
+            <p>
+                Complete Docker learning repository covering installation,
+                images, containers, Dockerfile, volumes,
+                networking, Docker Compose and real-world examples.
+            </p>
 
-                <div class="project-tags">
+            <div class="project-tags">
+                <span>Docker</span>
+                <span>Containers</span>
+                <span>DevOps</span>
+                <span>Linux</span>
+            </div>
 
-                    <span>Docker</span>
-                    <span>Containers</span>
-                    <span>DevOps</span>
-                    <span>Linux</span>
+            <div class="project-buttons">
 
-                </div>
+                <a href="https://github.com/bmohanbabu/docker-beginners-guide"
+                   target="_blank"
+                   class="btn-primary">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                </a>
 
-                <div class="project-buttons">
-
-                    <a href="https://github.com/bmohanbabu/docker-beginners-guide" target="_blank"
-                       class="btn-primary">
-                       GitHub
-                    </a>
-
-                    <a href="https://github.com/bmohanbabu/docker-beginners-guide/blob/main/README.md"
-                       class="btn-secondary">
-                       Documentation
-                    </a>
-
-                </div>
+                <a href="https://github.com/bmohanbabu/docker-beginners-guide/blob/main/README.md"
+                   target="_blank"
+                   class="btn-secondary">
+                    <i class="fas fa-book"></i>
+                    Documentation
+                </a>
 
             </div>
 
@@ -802,190 +808,345 @@ Senior SRE/DevOps Engineer
 
     </div>
 
-</section>
+    <!-- Project 2 -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
+    <div class="project-card">
 
-    <div class="section-title">
-        <h2>Let's Connect</h2>
-        <p>Open to international DevOps & SRE opportunities, consulting, and professional collaboration.</p>
+        <img src="assets/images/projects/aws-terraform.png"
+             alt="AWS Multi-Tier Infrastructure using Terraform">
+
+        <div class="project-content">
+
+            <h3>AWS Multi-Tier Infrastructure using Terraform</h3>
+
+            <p>
+                Designed and automated the deployment of a production-ready AWS multi-tier infrastructure using Terraform.
+            </p>
+
+            <div class="project-tags">
+                <span>AWS</span>
+                <span>Terraform</span>
+                <span>VPC</span>
+                <span>EC2</span>
+                <span>ALB</span>
+                <span>Auto Scaling</span>
+                <span>AWS CLI</span>
+            </div>
+
+            <div class="project-buttons">
+
+                <a href="https://github.com/bmohanbabu/aws-multi-tier-terraform"
+                   target="_blank"
+                   class="btn-primary">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                </a>
+
+                <a href="https://github.com/bmohanbabu/aws-multi-tier-terraform/blob/main/README.md"
+                   target="_blank"
+                   class="btn-secondary">
+                    <i class="fas fa-book"></i>
+                    Documentation
+                </a>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <div class="contact-container">
+</div>
 
-        <!-- Left Side -->
+
+<!-- =========================
+     YOUTUBE SECTION
+========================= -->
+
+<section id="youtube" class="youtube">
+
+    <div class="section-title">
+        <h2>TechwondersDevops</h2>
+        <p>Sharing practical DevOps knowledge through YouTube</p>
+    </div>
+
+    <div class="youtube-intro">
+
+        <h3>Learn DevOps with Real Projects</h3>
+
+        <p>
+            I create beginner-friendly DevOps tutorials covering Docker,
+            Kubernetes, Terraform, AWS, Linux, Git, CI/CD and real-world
+            infrastructure projects.
+        </p>
+
+    </div>
+
+    <div class="youtube-container">
+
+        <!-- Video 1 -->
+
+        <div class="video-card">
+
+            <img src="assets/images/youtube/devops.png"
+                 alt="DevOps Master Program">
+
+            <div class="video-content">
+
+                <h3>DevOps Master Program</h3>
+
+                <p>
+                    Learn DevOps from scratch with hands-on projects and real-world examples. Covers Docker, Kubernetes, Terraform, AWS, Linux, Git, CI/CD and more.
+                </p>
+
+                <a href="https://youtube.com/playlist?list=PLfRdhkKy0DQ7ZxamBwY8ufeeLycEjnEY7&si=I4nn73s-yh6qqv4-"
+                   target="_blank"
+                   class="btn-primary">
+
+                    <i class="fab fa-youtube"></i>
+                    Watch Video
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Video 2 -->
+
+        <div class="video-card">
+
+            <img src="assets/images/youtube/linux.png"
+                 alt="Linux Course">
+
+            <div class="video-content">
+
+                <h3>Linux for DevOps</h3>
+
+                <p>
+                    Linux course every DevOps engineer should know.
+                </p>
+
+                <a href="https://youtube.com/playlist?list=PLWqB8XLGcOLQ&si=UAB9kQszNzwfpIfb"
+                   target="_blank"
+                   class="btn-primary">
+
+                    <i class="fab fa-youtube"></i>
+                    Watch Video
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Video 3 -->
+
+        <div class="video-card">
+
+            <img src="assets/images/youtube/git.png"
+                 alt="Git Course">
+
+            <div class="video-content">
+
+                <h3>Git Complete Course</h3>
+
+                <p>
+                    Git basics to advanced branching,
+                    merging and GitHub workflows.
+                </p>
+
+                <a href="https://youtube.com/playlist?list=PLfRdhkKy0DQ7ZxamBwY8ufeeLycEjnEY7&si=9My52FFo2K9V48DR"
+                   target="_blank"
+                   class="btn-primary">
+
+                    <i class="fab fa-youtube"></i>
+                    Watch Video
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="youtube-btn">
+
+        <a href="https://www.youtube.com/@Techwonders_mb"
+           target="_blank"
+           class="btn-secondary">
+
+            Visit My YouTube Channel
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+    
+
+
+<section id="contact" class="contact">
+
+    <!-- Section Title -->
+
+    <div class="section-title">
+
+        <h2>Let's Connect</h2>
+
+        <p>
+            Open to international DevOps & SRE opportunities,
+            consulting and professional collaboration.
+        </p>
+
+    </div>
+
+    <!-- Intro -->
+
+    <div class="contact-intro">
 
         <h3>Let's Build Something Great Together 🚀</h3>
 
-<p>
-Whether you're hiring a Senior DevOps Engineer, looking for an SRE to improve platform reliability, or seeking DevOps training and consulting, I'd be happy to connect.
-</p>
+        <p>
+            Whether you're hiring a Senior DevOps Engineer,
+            looking for an SRE, or seeking DevOps training,
+            I'd be happy to connect.
+        </p>
 
-<!-- Career Card -->
+    </div>
 
-<div class="contact-box">
+    <!-- GRID -->
 
-<h3>
-<i class="fas fa-briefcase"></i>
-Career Opportunities
-</h3>
+    <div class="contact-grid">
 
-<div class="contact-item">
+        <!-- ================= Career ================= -->
 
-<i class="fas fa-envelope"></i>
+        <div class="contact-box">
 
-<div>
+            <h3>
+                <i class="fas fa-briefcase"></i>
+                Career Opportunities
+            </h3>
 
-<a href="mailto:mohanbabub09@gmail.com">
-mohanbabub09@gmail.com
-</a>
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:mohanbabub09@gmail.com">
+                    mohanbabub09@gmail.com
+                </a>
+            </div>
 
-</div>
+            <div class="contact-item">
+                <i class="fas fa-globe"></i>
+                <span>Available for International Relocation</span>
+            </div>
 
-</div>
+            <div class="contact-item">
+                <i class="fas fa-server"></i>
+                <span>Senior DevOps Engineer / Senior SRE</span>
+            </div>
 
-<div class="contact-item">
+            <div class="contact-item">
+                <i class="fas fa-briefcase"></i>
+                <span>7+ Years of Experience</span>
+            </div>
 
-<i class="fas fa-globe"></i>
+        </div>
 
-<div>
+        <!-- ================= Training ================= -->
 
-Open to Global Relocation
+        <div class="contact-box">
 
-</div>
+            <h3>
+                <i class="fas fa-graduation-cap"></i>
+                Training & Consulting
+            </h3>
 
-</div>
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:catchdevops@gmail.com">
+                    catchdevops@gmail.com
+                </a>
+            </div>
 
-<div class="contact-item">
+            <div class="contact-item">
+                <i class="fab fa-youtube"></i>
+                <span> TechwondersDevops YouTube Channel</span>
+            </div>
 
-<i class="fas fa-server"></i>
+            <div class="contact-item">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <span>Corporate & Freelance Training</span>
+            </div>
 
-<div>
+            <div class="contact-item">
+                <i class="fas fa-users"></i>
+                <span>DevOps Mentoring</span>
+            </div>
 
-Senior DevOps Engineer / Senior SRE
+        </div>
 
-</div>
+        <!-- ================= Location ================= -->
 
-</div>
+        <div class="contact-box">
 
-</div>
+            <h3>
+                <i class="fas fa-map-marker-alt"></i>
+                Location
+            </h3>
 
-<!-- Training Card -->
+            <div class="contact-item">
+                <i class="fas fa-map-pin"></i>
+                <span>Bengaluru, India</span>
+            </div>
 
-<div class="contact-box">
+            <div class="contact-item">
+                <i class="fas fa-plane"></i>
+                <span>Available for International Relocation</span>
+            </div>
 
-<h3>
+            <div class="contact-item">
+                <i class="fas fa-passport"></i>
+                <span>Seeking Employer-Sponsored Work Visa</span>
+            </div>
 
-<i class="fas fa-graduation-cap"></i>
+        </div>
 
-TechwondersDevops
+        <!-- ================= Quick Actions ================= -->
 
-</h3>
+        <div class="contact-box quick-actions">
 
-<div class="contact-item">
+            <h3>
+                <i class="fas fa-bolt"></i>
+                Get in Touch
+            </h3>
 
-<i class="fas fa-envelope"></i>
+            <a href="mailto:mohanbabub09@gmail.com"
+               class="btn-primary">
 
-<div>
+                <i class="fas fa-paper-plane"></i>
+                Contact for Jobs
 
-<a href="mailto:catchdevops@gmail.com">
+            </a>
 
-catchdevops@gmail.com
+            <a href="mailto:catchdevops@gmail.com"
+               class="btn-secondary">
 
-</a>
+                <i class="fas fa-graduation-cap"></i>
+                Training Enquiry
 
-</div>
+            </a>
 
-</div>
+            <a href="assets/resume/Mohanbabu_Resume.pdf"
+               download
+               class="btn-secondary">
 
-<div class="contact-item">
+                <i class="fas fa-download"></i>
+                Download Resume
 
-<i class="fab fa-youtube"></i>
-
-<div>
-
-YouTube Training Platform
-
-</div>
-
-</div>
-
-<div class="contact-item">
-
-<i class="fas fa-chalkboard-teacher"></i>
-
-<div>
-
-Corporate & Freelance Training
-
-</div>
-
-</div>
-
-</div>
-
-<!-- Location -->
-
-<div class="contact-item">
-
-<i class="fas fa-location-dot"></i>
-
-<div>
-
-Bengaluru, India
-
-</div>
-
-</div>
-
-<div class="contact-social">
-
-<a href="https://github.com/bmohanbabu" target="_blank">
-<i class="fab fa-github"></i>
-</a>
-
-<a href="https://www.linkedin.com/in/mohanbabudevops/" target="_blank">
-<i class="fab fa-linkedin"></i>
-</a>
-
-<a href="https://www.youtube.com/@Techwonders_mb" target="_blank">
-<i class="fab fa-youtube"></i>
-</a>
-
-</div>
-
-        <!-- Right Side -->
-
-        <div class="contact-card">
-
-            <a href="mailto:mohanbabu.devops@gmail.com"
-class="btn-primary">
-
-<i class="fas fa-paper-plane"></i>
-
-Contact for Jobs
-
-</a>
-
-<a href="mailto:catchdevops@gmail.com"
-class="btn-secondary">
-
-<i class="fas fa-graduation-cap"></i>
-
-Training Enquiry
-
-</a>
-
-<a href="assets/resume/Mohanbabu_Resume.pdf"
-class="btn-secondary"
-download>
-
-<i class="fas fa-download"></i>
-
-Download Resume
-
-</a>
+            </a>
 
         </div>
 
@@ -993,8 +1154,78 @@ Download Resume
 
 </section>
 
-
     <script src="assets/js/script.js"></script>
+
+    <!-- =========================
+     FOOTER
+========================= -->
+
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <h2>Mohan<span>Babu</span></h2>
+
+        <p class="footer-title">
+            Senior DevOps & Site Reliability Engineer
+        </p>
+
+        <p class="footer-desc">
+            Building Reliable Cloud Platforms with AWS, Kubernetes,
+            Terraform, Docker and CI/CD Automation.
+        </p>
+
+        <div class="footer-location">
+
+            <span>
+                <i class="fas fa-location-dot"></i>
+                India
+            </span>
+
+            <span>
+                <i class="fas fa-earth-asia"></i>
+                Open to Global Relocation
+            </span>
+
+        </div>
+
+        <div class="footer-social">
+
+            <a href="https://www.linkedin.com/in/mohanbabudevops/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a href="https://github.com/bmohanbabu" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://www.youtube.com/@Techwonders_mb" target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+
+            <a href="mailto:catchdevops@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
+
+        </div>
+
+        <hr>
+
+        <p class="copyright">
+
+            © 2026 Mohan Babu. All Rights Reserved.
+
+        </p>
+
+        <p class="built">
+
+            Designed & Developed by Mohan Babu ❤️ | Powered by HTML, CSS & JavaScript 
+
+        </p>
+
+    </div>
+
+</footer>
 
 </body>
 </html>
